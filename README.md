@@ -29,4 +29,6 @@ L'instruction VOLUME /var/log/apache2 crée un volume pour stocker les journaux 
 
 Étape 7 : Ajout des fichiers du site web
 
+L'image est publiquement disponible sur dockerhub (nanoimg:V2)
+
 L'instruction ADD nano.tar.gz /var/www/html ajoute les fichiers du site web depuis une archive compressée.
